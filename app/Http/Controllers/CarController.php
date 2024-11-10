@@ -10,7 +10,7 @@ class CarController extends Controller
     
     public function index() {
         return view('car.index', [
-            'company' => 'моя защищённая страница',
+            'company' => 'моя защещённая страница',
         ]);
     }
 }
